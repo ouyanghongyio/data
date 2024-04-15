@@ -17,9 +17,9 @@
 
 音乐播放
 
-<audio id="audio" controls="">
+<audio-player id="audio-player" controls="">
       <source id="mp3" src="https://ouyanghongyio.github.io/data/music/jiaren.mp3">
-</audio>
+</audio-player>
 
 视频播放
 
