@@ -2,12 +2,13 @@
 
 居中
 
-## <center>标题居中</center>
+<center>标题居中</center>
 
 图片
 
 
 ![图片显示](https://ouyanghongyio.github.io/data/images/water-fall-0.jpg)
+
 
 音乐播放
 
