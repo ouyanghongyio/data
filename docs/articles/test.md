@@ -17,9 +17,7 @@
 
 音乐播放
 
-<audio-player id="audio-player" controls="">
-      <source id="mp3" src="https://ouyanghongyio.github.io/data/music/jiaren.mp3">
-</audio-player>
+<audio autoplay="true" loop="true" name="此时此刻" author="许巍" poster="https://www.vvadd.com/wxml_demo/music.jpg"  src="https://ouyanghongyio.github.io/data/music/music.mp3"></audio>
 
 视频播放
 
