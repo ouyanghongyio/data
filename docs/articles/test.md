@@ -4,8 +4,13 @@
 
 <center>标题居中</center>
 
+<div align="center"> 居中标题测试</div>
+
 图片
 
+<div align="center">
+
+<img src="https://ouyanghongyio.github.io/data/images/water-fall-0.jpg" width="50px" height="50px">
 
 ![图片显示](https://ouyanghongyio.github.io/data/images/water-fall-0.jpg)
 
@@ -22,9 +27,124 @@
       <source id="mp4" src="https://ouyanghongyio.github.io/data/mp4/test.mp4" type="video/mp4">
 </video>
 
-<font color=gray size=7> color=gray </font>
-<font color=#00ffff size=7> color=#00ffff </font>
-<font color=#0099ff size=7 face="黑体"> color=#0099ff size=7 face="黑体" </font>
+::: echarts 一个折线图案例
+
+```json
+{
+  "xAxis": {
+    "type": "category",
+    "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "data": [150, 230, 224, 218, 135, 147, 260],
+      "type": "line"
+    }
+  ]
+}
+```
+
+:::
+
+
+::: echarts 一个基础南丁格尔玫瑰图案例
+
+```json
+{
+  "legend": {
+    "top": "bottom"
+  },
+  "toolbox": {
+    "show": true,
+    "feature": {
+      "mark": {
+        "show": true
+      },
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "restore": {
+        "show": true
+      },
+      "saveAsImage": {
+        "show": true
+      }
+    }
+  },
+  "series": [
+    {
+      "name": "Nightingale Chart",
+      "type": "pie",
+      "radius": [20, 100],
+      "center": ["50%", "50%"],
+      "roseType": "area",
+      "itemStyle": {
+        "borderRadius": 8
+      },
+      "data": [
+        {
+          "value": 40,
+          "name": "rose 1"
+        },
+        {
+          "value": 38,
+          "name": "rose 2"
+        },
+        {
+          "value": 32,
+          "name": "rose 3"
+        },
+        {
+          "value": 30,
+          "name": "rose 4"
+        },
+        {
+          "value": 28,
+          "name": "rose 5"
+        },
+        {
+          "value": 26,
+          "name": "rose 6"
+        },
+        {
+          "value": 22,
+          "name": "rose 7"
+        },
+        {
+          "value": 18,
+          "name": "rose 8"
+        }
+      ]
+    }
+  ]
+}
+```
+
+:::
+
+
+LaTex数学公式
+
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+
+
+
+
+流程图
+
+
+```mermaid
+sequenceDiagram
+DHCP客户机-->>DHCP服务器: IP租约请求
+DHCP服务器-->>DHCP客户机: IP租约提供
+DHCP客户机-->>DHCP服务器: IP租约选择
+DHCP服务器-->>DHCP客户机: IP租约确认
+
+​```
 
 md语法基本使用
 
@@ -45,6 +165,11 @@ md语法基本使用
 只具有基本的展示功能，且不具备动态配置功能
 
 ”```“  三个指标符上下两行中间包括的文本会全部高亮，就是整个代码块高亮的效果
+
+
+
+
+
 
 ```
 代码快高亮
