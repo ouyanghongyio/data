@@ -11,7 +11,7 @@
 音乐播放
 
 <audio id="audio" controls="" preload="none">
-      <source id="mp3" src="https://music.163.com/#/song?id=28188427">
+      <source id="mp3" src="https://ouyanghongyio.github.io/data/music/jiaren.mp3">
 </audio>
 
 表格
