@@ -7,11 +7,11 @@
 图片
 
 
-<img src="https://ouyanghongyio.github.io/data/images/water-fall-0.jpg"></img>
+<image src="https://ouyanghongyio.github.io/data/images/water-fall-0.jpg"></image>
 
 音乐播放
 
-<audio id="audio" controls="" preload="none">
+<audio id="audio" controls="">
       <source id="mp3" src="https://ouyanghongyio.github.io/data/music/jiaren.mp3">
 </audio>
 
