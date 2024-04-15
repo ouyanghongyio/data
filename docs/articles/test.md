@@ -29,7 +29,7 @@
 
 ::: echarts 一个折线图案例
 
-```json
+```echarts
 {
   "xAxis": {
     "type": "category",
@@ -52,7 +52,7 @@
 
 ::: echarts 一个基础南丁格尔玫瑰图案例
 
-```json
+```echarts
 {
   "legend": {
     "top": "bottom"
@@ -131,13 +131,19 @@ LaTex数学公式
 
 $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
 
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$
 
+$$
+\frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } }
+$$
 
 
 流程图
 
 
-```mermaid
+```yuml
 sequenceDiagram
 DHCP客户机-->>DHCP服务器: IP租约请求
 DHCP服务器-->>DHCP客户机: IP租约提供
