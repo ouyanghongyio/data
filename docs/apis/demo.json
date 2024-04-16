@@ -1,0 +1,42 @@
+[
+  {
+    "articledes": "weixin-0",
+    "blogdes": "weixin",
+    "cardTitle": "微信小程序-博客",
+    "cardContent":"简介--微信小程序搭建完整过程，该博客包括多篇文章，从零开始搭建的整个过程和图文教程，代码示例",
+    "cardSrc": "https://ouyanghongyio.github.io/data/images/weixin-0.jpg",
+    "width": "360",
+    "height": "400",
+    "itemWidth": "0"
+  },
+  {
+    "articledes": "github-0",
+    "blogdes": "github",
+    "cardTitle": "github操作",
+    "cardContent":"github 包括注册及使用，配置教程，gitpages，gitaction，vercel静态网页搭建等等",
+    "cardSrc": "https://ouyanghongyio.github.io/data/images/github-0.jpg",
+    "width": "260",
+    "height": "360",
+    "itemWidth": "0"
+  },
+  {
+    "articledes": "idea-0",
+    "blogdes": "idea",
+    "cardTitle": "idea的使用",
+    "cardContent":"idea 的完整使用教程，包括下载，部署，绿化，和 java,flutter，golang,python的开发使用配置",
+    "cardSrc": "https://ouyanghongyio.github.io/data/images/idea-0.jpg",
+    "width": "260",
+    "height": "460",
+    "itemWidth": "0"
+  },
+  {
+    "articledes": "java-0",
+    "blogdes": "java",
+    "cardTitle": "java编程",
+    "cardContent":"java 开发 ，springboot  springcloud 等等",
+    "cardSrc": "https://ouyanghongyio.github.io/data/images/java-0.jpg",
+    "width": "360",
+    "height": "260",
+    "itemWidth": "0"
+  }
+]
