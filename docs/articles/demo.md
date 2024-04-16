@@ -1,3 +1,21 @@
+---
+html:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+        collapsed: true
+        smooth_scroll: true
+    number_sections: true  
+---
+
+- [特色](#特色)
+- [什么是markdown](#什么是-markdown)
+- [Markdown TodoList](#Markdown-TodoList)
+- [公式](#公式)
+
+
+
+
 # Towxml
 
 ![Towxml](https://www.vvadd.com/wxml_demo/logo--horizontal.svg)
@@ -535,6 +553,27 @@ Start numbering with offset:
 
 ## Video
 <video class="vidoe" src="https://www.vvadd.com/wxml_demo/video.mp4">视频</video>
+
+
+
+## 时序图
+
+```mermaid
+sequenceDiagram
+participant a as 学生
+participant b as 教务系统
+participant c as 课程
+participant d as 成绩
+opt 认证
+a->>b: 用户名/密码
+end
+a->>+b: 请求课程列表
+b->>+c: 获取课程列表
+c-->>-b: 返回课程列表
+b->>+d: 获取成绩信息
+d-->>-b: 返回成绩信息
+b-->>-a: 显示成绩
+```
 
 
 ---
