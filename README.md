@@ -4,15 +4,15 @@
 
 apis
 
-https://ouyanghongyio.github.io/data/apis/
+https://ouyanghongyio.github.io/data/apis/articles.json
 
 images
 
-https://ouyanghongyio.github.io/data/images/
+https://ouyanghongyio.github.io/data/images/weixin-blog.png
 
 articles
 
-https://ouyanghongyio.github.io/data/articles/articles.json
+https://ouyanghongyio.github.io/data/articles/demo.md
 
 music
 
